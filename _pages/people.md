@@ -18,7 +18,7 @@ nav_order: 2
 {% for member in current_members %}
 <div class="member-card">
   {% if member.photo %}
-    <img src="/assets/img/members/{{ member.photo }}" alt="{{ member.name }}" class="member-photo" />
+    <img src="{{ '/assets/img/members/' | append: member.photo | relative_url }}" alt="{{ member.name }}" class="member-photo" />
   {% else %}
     <div class="member-photo member-photo-placeholder" aria-label="{{ member.name }}"></div>
   {% endif %}
