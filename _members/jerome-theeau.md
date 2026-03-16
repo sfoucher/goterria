@@ -1,7 +1,7 @@
 ---
 name: Jérôme Théau
 role: Researcher
-# photo: jerome-theeau.jpg
+photo: jerome-theeau.jpg
 bio: >
   Brief bio for Jérôme Théau. Update with actual content.
 alumni: false

@@ -1,7 +1,7 @@
 ---
 name: Samuel Foucher
 role: Researcher
-# photo: samuel-foucher.jpg  # uncomment when photo is added to assets/img/members/
+photo: samuel-foucher.jpg
 bio: >
   Brief bio for Samuel Foucher. Update with actual content.
 alumni: false

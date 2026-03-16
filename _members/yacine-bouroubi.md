@@ -1,7 +1,7 @@
 ---
 name: Yacine Bouroubi
 role: Researcher
-# photo: yacine-bouroubi.jpg
+photo: yacine-bouroubi.jpg
 bio: >
   Brief bio for Yacine Bouroubi. Update with actual content.
 alumni: false

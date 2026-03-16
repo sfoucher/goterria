@@ -1,7 +1,7 @@
 ---
 name: Mickaël Germain
 role: Researcher
-# photo: mickael-germain.jpg
+photo: mickael-germain.png
 bio: >
   Brief bio for Mickaël Germain. Update with actual content.
 alumni: false
