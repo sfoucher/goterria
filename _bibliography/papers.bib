@@ -12,7 +12,7 @@
   doi      = {10.3389/frai.2020.564878},
   abstract = {Flavescence dor{\'e}e (FD) is a grapevine disease caused by phytoplasmas and transmitted by leafhoppers that has been spreading in European vineyards despite significant efforts to control it. In this study, we aim to develop a model for the automatic detection of FD-like symptoms (which encompass other grapevine yellows symptoms). The concept is to detect likely FD-affected grapevines so that samples can be removed for FD laboratory identification, followed by uprooting if they test positive, all to be conducted quickly and without omission, thus avoiding further contamination in the fields. Developing FD-like symptoms detection models is not simple, as it requires dealing with the complexity of field conditions and FD symptoms' expression. To address these challenges, we use deep learning, which has already been proven effective in similar contexts. More specifically, we train a Convolutional Neural Network on image patches, and convert it into a Fully Convolutional Network to perform inference. As a result, we obtain a coarse segmentation of the likely FD-affected areas while having only trained a classifier, which is less demanding in terms of annotations. We evaluate the performance of our model trained on a white grape variety, Chardonnay, across five other grape varieties with varying FD symptoms expressions. Of the two largest test datasets, the true positive rate for Chardonnay reaches 98.48\% whereas for Ugni-Blanc it drops to 8.3\%, underlining the need for a multi-varietal training dataset to capture the diversity of FD symptoms. To obtain more transparent results and to better understand the model's sensitivity, we investigate its behavior using two visualization techniques, Guided Gradient-weighted Class Activation Mapping and the Uniform Manifold Approximation and Projection. Such techniques lead to a more comprehensive analysis with greater reliability, which is essential for in-field applications, and more broadly, for all applications impacting humans and the environment.},
   keywords = {Convolutional neural networks (CNNs),Explainable artificial intelligence,Flavescence doree,Fully convolutional networks (FCNs),Grapevine yellows (GY),Plant diseases detection,Precision viticulture,Smart farming},
-  tags = {segmentation},
+  tags = {segmentation, classification, agriculture},
   bibtex_show = {true}
 }
 
@@ -133,6 +133,7 @@
   doi      = {10.1038/s41598-025-33961-0},
   abstract = {Accurate classification of weed seedlings is a key challenge to address in order to advance precision weed management and reduce pesticide use. In this study, an original image dataset, the Weed Phenological Dataset (WPD), with annotated early growth stages is introduced. Furthermore, a novel deep learning taxonomic loss function for few-shot learning was evaluated. Using hierarchical structures to direct the classification process, this taxonomic loss function introduces dynamic margins during the computation.},
   keywords = {Computational biology and bioinformatics,Ecology,Plant sciences},
+  tags = {classification, agriculture},
   bibtex_show = {true}
 }
 
@@ -160,6 +161,7 @@
   doi      = {10.1016/j.coldregions.2025.104656},
   abstract = {The concentration of frazil ice, crucial to the development of river ice covers and the numerical modeling of ice cover development, is challenging to measure in situ. Remote sensing using deep neural networks on images of frazil drift ice taken from drone is promising but faces challenges due to limited annotated datasets and difficulty in visually distinguishing ice types and boundaries.},
   keywords = {Convolutional Neural Network,Drone,Frazil,River ice},
+  tags = {classification},
   bibtex_show = {true}
 }
 
@@ -193,22 +195,10 @@
   doi      = {10.3390/rs15030835},
   abstract = {The Bidirectional Reflectance Distribution Function (BRDF) defines the anisotropy of surface reflectance and plays a fundamental role in many remote sensing applications. This study proposes a new machine learning-based model for characterizing the BRDF. The model integrates the capability of Radiative Transfer Models (RTMs) to generate simulated remote sensing data with the power of deep neural networks to emulate, learn and approximate the complex pattern of physical RTMs for BRDF modeling.},
   keywords = {1D-CNN,6S,BRDF,deep learning,emulator,PROSAIL,RTMSs,Sentinel-3 OLCI},
+  tags = {Athmosphere},
   bibtex_show = {true}
 }
 
-@article{tlili2020InterferometricPhaseUnwrapping,
-  title    = {New Interferometric Phase Unwrapping Method Based on Energy Minimization from Contextual Modeling},
-  author   = {Tlili, Ayoub and Cavayas, Fran\c{c}ois and Foucher, Samuel and Siles, Gabriela Lianet},
-  year     = 2020,
-  journal  = {IEEE Journal of Selected Topics in Applied Earth Observations and Remote Sensing},
-  volume   = {13},
-  pages    = {6524--6532},
-  issn     = {1939-1404},
-  doi      = {10.1109/jstars.2020.3043344},
-  abstract = {Two-dimensional phase unwrapping is a critical processing procedure of synthetic aperture radar interferometry. This operation becomes even more difficult in the presence of noise. Both local and global unwrapping algorithms are used in obtaining the absolute phase from the wrapped ones. The aim of this article is to present a new algorithm for interferometric phase unwrapping.},
-  keywords = {Cost function,Genetic algorithms,InSAR,interferogram,phase unwrapping,Synthetic aperture radar},
-  bibtex_show = {true}
-}
 
 @article{turgeonpelchat2021DeepLearningClassification,
   title    = {Deep Learning-Based Classification of Large-Scale Airborne {{LiDAR}} Point Cloud},
@@ -219,7 +209,7 @@
   issn     = {0703-8992},
   doi      = {10.1080/07038992.2021.1927687},
   abstract = {Airborne LiDAR data allow the precise modeling of topography and are used in multiple contexts. To facilitate further analysis, the point cloud classification process allows the assignment of a class, object or feature, to each point. This research uses ConvPoint, a deep learning method, to perform airborne point cloud classification at scale, in rural and urban contexts.},
-  tags = {segmentation},
+  tags = {segmentation, LIDAR},
   bibtex_show = {true}
 }
 
@@ -229,6 +219,7 @@
   year       = 2026,
   journal    = {Environmental Monitoring and Assessment},
   annotation = {Soumis},
+  tags = {classification, agriculture},
   bibtex_show = {true}
 }
 
@@ -238,6 +229,7 @@
   year       = 2026,
   journal    = {Journal of Cycling and Micromobility Research},
   annotation = {Soumis},
+  tags = {segmentation},
   bibtex_show = {true}
 }
 

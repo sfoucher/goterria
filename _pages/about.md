@@ -5,7 +5,7 @@ permalink: /
 nav: true
 nav_order: 1
 subtitle: >
-  <a href="https://www.university.edu">Department Name, University Name</a>
+  <a href="https://www.usherbrooke.ca/geomatique/">Université de Sherbrooke, Dpt. de Géomatique appliquée</a>
 
 profile:
   align: right
@@ -26,4 +26,4 @@ latest_posts:
 
 The **GoTerria** research group works on remote sensing, geomatics, and earth observation. We develop methods and tools to extract information from satellite and aerial imagery for environmental monitoring and land use analysis.
 
-We are part of [Your University or Department](https://www.university.edu). If you are interested in joining the group or collaborating, please [contact us](contact/).
+We are part of [Dpt. of Applied Geomatics](https://www.usherbrooke.ca/geomatique/). If you are interested in joining the group or collaborating, please [contact us](contact/).
