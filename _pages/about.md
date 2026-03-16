@@ -2,11 +2,12 @@
 layout: about
 title: about
 permalink: /
-subtitle: GoTerria Research Group
+subtitle: >
+  <a href="https://www.university.edu">Department Name, University Name</a>
 
 profile:
   align: right
-  image: prof_pic.jpg
+  # image: lab-logo.png  # uncomment and add your lab logo to assets/img/
   image_circular: false
   more_info:
 
