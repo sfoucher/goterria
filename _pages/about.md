@@ -9,7 +9,7 @@ subtitle: >
 
 profile:
   align: right
-  # image: lab-logo.png  # uncomment and add your lab logo to assets/img/
+  image: lab-logo.svg
   image_circular: false
   more_info:
 
