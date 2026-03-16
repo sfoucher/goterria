@@ -12,6 +12,7 @@
   doi      = {10.3389/frai.2020.564878},
   abstract = {Flavescence dor{\'e}e (FD) is a grapevine disease caused by phytoplasmas and transmitted by leafhoppers that has been spreading in European vineyards despite significant efforts to control it. In this study, we aim to develop a model for the automatic detection of FD-like symptoms (which encompass other grapevine yellows symptoms). The concept is to detect likely FD-affected grapevines so that samples can be removed for FD laboratory identification, followed by uprooting if they test positive, all to be conducted quickly and without omission, thus avoiding further contamination in the fields. Developing FD-like symptoms detection models is not simple, as it requires dealing with the complexity of field conditions and FD symptoms' expression. To address these challenges, we use deep learning, which has already been proven effective in similar contexts. More specifically, we train a Convolutional Neural Network on image patches, and convert it into a Fully Convolutional Network to perform inference. As a result, we obtain a coarse segmentation of the likely FD-affected areas while having only trained a classifier, which is less demanding in terms of annotations. We evaluate the performance of our model trained on a white grape variety, Chardonnay, across five other grape varieties with varying FD symptoms expressions. Of the two largest test datasets, the true positive rate for Chardonnay reaches 98.48\% whereas for Ugni-Blanc it drops to 8.3\%, underlining the need for a multi-varietal training dataset to capture the diversity of FD symptoms. To obtain more transparent results and to better understand the model's sensitivity, we investigate its behavior using two visualization techniques, Guided Gradient-weighted Class Activation Mapping and the Uniform Manifold Approximation and Projection. Such techniques lead to a more comprehensive analysis with greater reliability, which is essential for in-field applications, and more broadly, for all applications impacting humans and the environment.},
   keywords = {Convolutional neural networks (CNNs),Explainable artificial intelligence,Flavescence doree,Fully convolutional networks (FCNs),Grapevine yellows (GY),Plant diseases detection,Precision viticulture,Smart farming},
+  bibtex_show = {true}
 }
 
 @inproceedings{clabaut2024SelfSupervisedApproachProducing,
@@ -25,6 +26,7 @@
   doi       = {10.1109/IGARSS53475.2024.10642193},
   abstract  = {Accurate and up-to-date land cover (LC) maps are critical for informed decision-making and resource management. While global products may not include region-specific classes or have optimal accuracy, this paper presents a method to produce a 10 m resolution LC map for Southern Quebec, Canada with 10 classes related to soil artificialization. To overcome annotation effort, a DeepResUNet model is trained on 400 simulated Sentinel-2 scene mosaics instead of real images. Scene realism is enhanced through the use of data augmentation and linear mixing of pure samples. Preliminary results demonstrate improved spatial detail compared to other products, with better delineation of roads and urban areas. A preliminary quantitative analysis based on a visual interpretation of 400 locations across 4 areas indicates that our land cover map aligns with ground conditions three times more often than a recent global land cover product, where they disagree.},
   keywords  = {Accuracy,Deep Learning,Image resolution,Land Cover,Land surface,Roads,Self-Supervised Training,Sentinel-2,Statistical analysis,Urban areas,Visualization},
+  bibtex_show = {true}
 }
 
 @article{clabaut2024SyntheticDataSentinel2,
@@ -42,6 +44,7 @@
   abstract  = {Satellite observations provide critical data for a myriad of applications, but automated information extraction from such vast datasets remains challenging. While artificial intelligence (AI), particularly deep learning methods, offers promising solutions for land cover classification, it often requires massive amounts of accurate, error-free annotations. This paper introduces a novel approach to generate a segmentation task dataset with minimal human intervention, thus significantly reducing annotation time and potential human errors. `Samples' extracted from actual imagery were utilized to construct synthetic composite images, representing 10 segmentation classes. A DeepResUNet was solely trained on this synthesized dataset, eliminating the need for further fine-tuning. Preliminary findings demonstrate impressive generalization abilities on real data across various regions of Quebec. We endeavored to conduct a quantitative assessment without reliance on manually annotated data, and the results appear to be comparable, if not superior, to models trained on genuine datasets.},
   keywords  = {deep-learning,land cover,REF,segmentation,Sentinel-2,synthetic data},
   selected  = {true},
+  bibtex_show = {true}
 }
 
 @article{delplanque2023CrowdHerdCounting,
@@ -55,6 +58,7 @@
   issn     = {09242716},
   doi      = {10.1016/j.isprsjprs.2023.01.025},
   abstract = {Rapid growth of human populations in sub-Saharan Africa has led to a simultaneous increase in the number of livestock, often leading to conflicts of use with wildlife in protected areas. To minimize these conflicts, and to meet both communities' and conservation goals, it is therefore essential to monitor livestock density and their land use. This is usually done by conducting aerial surveys during which aerial images are taken for later counting. Although this approach appears to reduce counting bias, the manual processing of images is timeconsuming. The use of dense convolutional neural networks (CNNs) has emerged as a very promising avenue for processing such datasets. However, typical CNN architectures have detection limits for dense herds and closeby animals. To tackle this problem, this study introduces a new point-based CNN architecture, HerdNet, inspired by crowd counting. It was optimized on challenging oblique aerial images containing herds of camels (Camelus dromedarius), donkeys (Equus asinus), sheep (Ovis aries) and goats (Capra hircus), acquired over heterogeneous arid landscapes of the Ennedi reserve (Chad). This approach was compared to an anchor-based architecture, Faster-RCNN, and a density-based, adapted version of DLA-34 that is typically used in crowd counting. HerdNet achieved a global F1 score of 73.6 \% on 24 megapixels images, with a root mean square error of 9.8 animals and at a processing speed of 3.6 s, outperforming the two baselines in terms of localization, counting and speed.},
+  bibtex_show = {true}
 }
 
 @article{delplanque2023SurveyingWildlifeLivestock,
@@ -66,6 +70,7 @@
   issn     = {2296-701X},
   doi      = {10.3389/fevo.2023.1270857},
   abstract = {As the need to accurately monitor key-species populations grows amid increasing pressures on global biodiversity, the counting of large mammals in savannas has traditionally relied on the Systematic-Reconnaissance-Flight (SRF) technique using light aircrafts and human observers. However, this method has limitations, including non-systematic human errors. In recent years, the Oblique-Camera-Count (OCC) approach developed in East Africa has utilized cameras to capture high-resolution imagery replicating aircraft observers' oblique view. Whilst demonstrating that human observers have missed many animals, OCC relies on labor-intensive human interpretation of thousands of images. This study explores the potential of Deep Learning (DL) to reduce the interpretation workload associated with OCC surveys. Using oblique aerial imagery of 2.1 hectares footprint collected during an SRF-OCC survey of Queen Elizabeth Protected Area in Uganda, a DL model (HerdNet) was trained and evaluated to detect and count 12 wildlife and livestock mammal species. The model's performance was assessed both at the animal instance-based and image-based levels, achieving accurate detection performance (F1 score of 85\%) in positive images (i.e. containing animals) and reducing manual interpretation workload by 74\% on a realistic dataset showing less than 10\% of positive images.},
+  bibtex_show = {true}
 }
 
 @article{delplanque2024WillArtificialIntelligence,
@@ -80,6 +85,7 @@
   doi      = {10.1016/j.ecoinf.2024.102679},
   abstract = {Large African mammal populations are traditionally estimated using the systematic reconnaissance flights (SRF) with rear-seat observers (RSOs). The oblique-camera-count (OCC) approach, utilizing digital cameras on aircraft sides, proved to provide more reliable population estimates but incurs high manual processing costs. Addressing the urgent need for efficiency, the research explores whether a semi-automated deep learning (SADL) model coupled with OCC improves wildlife population estimates compared to the SRF-RSO method.},
   keywords = {Aerial surveys,African savanna,Biodiversity monitoring,Conservation technology,Deep learning,Wildlife population estimation},
+  bibtex_show = {true}
 }
 
 @article{delplanque2021MultispeciesDetection,
@@ -91,6 +97,7 @@
   doi      = {10.1002/rse2.234},
   abstract = {Survey and monitoring of wildlife populations are among the key elements in nature conservation. The use of unmanned aerial vehicles and light aircrafts as aerial image acquisition systems is growing, as they are cheaper alternatives to traditional census methods. However, the manual localization and identification of species within imagery can be time-consuming and complex. Object detection algorithms, based on convolutional neural networks (CNNs), have shown a good capacity for animal detection. Nevertheless, most of the work has focused on binary detection cases (animal vs. background). The main objective of this study is to compare three recent detection algorithms to detect and identify African mammal species based on high-resolution aerial images.},
   keywords = {African mammals,CNNs,deep learning,multispecies,UAV,wildlife monitoring},
+  bibtex_show = {true}
 }
 
 @article{durandLackingDataNo,
@@ -102,6 +109,7 @@
   doi      = {10.1002/rse2.70056},
   abstract = {Accurate population estimates are essential for wildlife management, providing critical insights into species abundance and distribution. Traditional survey methods, including visual aerial counts and GNSS telemetry tracking, are widely used to monitor muskox (Ovibos moschatus) populations in Arctic regions. These approaches are resource-intensive and constrained by logistical challenges. Advances in remote sensing, artificial intelligence, and high-resolution aerial imagery offer promising alternatives for wildlife detection. Yet, the effectiveness of deep learning object detection models (ODMs) is often limited by small datasets, making it challenging to train robust ODMs for sparsely distributed species like muskoxen. This study investigates the integration of synthetic imagery, created with diffusion-based models, to supplement limited training data and improve muskox detection in zero-shot and few-shot settings.},
   keywords = {data augmentation,few-shot learning,muskox,synthetic images,wildlife survey,zero-shot learning},
+  bibtex_show = {true}
 }
 
 @article{fontaine2026TaxonomicalLossWeed,
@@ -117,6 +125,7 @@
   doi      = {10.1038/s41598-025-33961-0},
   abstract = {Accurate classification of weed seedlings is a key challenge to address in order to advance precision weed management and reduce pesticide use. In this study, an original image dataset, the Weed Phenological Dataset (WPD), with annotated early growth stages is introduced. Furthermore, a novel deep learning taxonomic loss function for few-shot learning was evaluated. Using hierarchical structures to direct the classification process, this taxonomic loss function introduces dynamic margins during the computation.},
   keywords = {Computational biology and bioinformatics,Ecology,Plant sciences},
+  bibtex_show = {true}
 }
 
 @book{foucher2025TraitementDimagesSatellites,
@@ -128,6 +137,7 @@
   publisher = {Universit{\'e} de Sherbrooke},
   doi       = {10.17118/11143/22593},
   abstract  = {Ce livre vise \`a d{\'e}crire une panoplie de m{\'e}thodes de traitement d'images satellites avec le langage Python. Celles et ceux souhaitant migrer progressivement d'un autre logiciel d'imagerie et de t{\'e}l{\'e}d{\'e}tection vers Python trouveront dans cet ouvrage les {\'e}l{\'e}ments pour une transition en douceur.},
+  bibtex_show = {true}
 }
 
 @article{litalien2025AssessingRegressionbasedDeep,
@@ -142,6 +152,7 @@
   doi      = {10.1016/j.coldregions.2025.104656},
   abstract = {The concentration of frazil ice, crucial to the development of river ice covers and the numerical modeling of ice cover development, is challenging to measure in situ. Remote sensing using deep neural networks on images of frazil drift ice taken from drone is promising but faces challenges due to limited annotated datasets and difficulty in visually distinguishing ice types and boundaries.},
   keywords = {Convolutional Neural Network,Drone,Frazil,River ice},
+  bibtex_show = {true}
 }
 
 @article{moreni2023YouGetWhat,
@@ -157,6 +168,7 @@
   doi      = {10.1371/journal.pone.0284449},
   abstract = {The vast amount of images generated by aerial imagery in the context of regular wildlife surveys nowadays require automatic processing tools. At the top of the mountain of different methods to automatically detect objects in images reigns deep learning's object detection. The recent focus given to this task has led to an influx of many different architectures of neural networks that are benchmarked against standard datasets like Microsoft's Common Objects in COntext (COCO). Performance on COCO is given in terms of mean Average Precision (mAP). In this study, we use six pretrained networks to detect red deer from aerial images, three of which have never been used in a context of aerial wildlife surveys.},
   keywords = {Animal performance,Computer architecture,Data acquisition,Deep learning,Deer,Wildlife},
+  bibtex_show = {true}
 }
 
 @article{ojaghi2023DeepLearningBasedEmulation,
@@ -172,6 +184,7 @@
   doi      = {10.3390/rs15030835},
   abstract = {The Bidirectional Reflectance Distribution Function (BRDF) defines the anisotropy of surface reflectance and plays a fundamental role in many remote sensing applications. This study proposes a new machine learning-based model for characterizing the BRDF. The model integrates the capability of Radiative Transfer Models (RTMs) to generate simulated remote sensing data with the power of deep neural networks to emulate, learn and approximate the complex pattern of physical RTMs for BRDF modeling.},
   keywords = {1D-CNN,6S,BRDF,deep learning,emulator,PROSAIL,RTMSs,Sentinel-3 OLCI},
+  bibtex_show = {true}
 }
 
 @article{tlili2020InterferometricPhaseUnwrapping,
@@ -185,6 +198,7 @@
   doi      = {10.1109/jstars.2020.3043344},
   abstract = {Two-dimensional phase unwrapping is a critical processing procedure of synthetic aperture radar interferometry. This operation becomes even more difficult in the presence of noise. Both local and global unwrapping algorithms are used in obtaining the absolute phase from the wrapped ones. The aim of this article is to present a new algorithm for interferometric phase unwrapping.},
   keywords = {Cost function,Genetic algorithms,InSAR,interferogram,phase unwrapping,Synthetic aperture radar},
+  bibtex_show = {true}
 }
 
 @article{turgeonpelchat2021DeepLearningClassification,
@@ -196,6 +210,7 @@
   issn     = {0703-8992},
   doi      = {10.1080/07038992.2021.1927687},
   abstract = {Airborne LiDAR data allow the precise modeling of topography and are used in multiple contexts. To facilitate further analysis, the point cloud classification process allows the assignment of a class, object or feature, to each point. This research uses ConvPoint, a deep learning method, to perform airborne point cloud classification at scale, in rural and urban contexts.},
+  bibtex_show = {true}
 }
 
 @article{sablonniere2026CNNRiparianBuffer,
@@ -204,6 +219,7 @@
   year       = 2026,
   journal    = {Environmental Monitoring and Assessment},
   annotation = {Soumis},
+  bibtex_show = {true}
 }
 
 @article{meret2026DeepLearningCycling,
@@ -212,6 +228,7 @@
   year       = 2026,
   journal    = {Journal of Cycling and Micromobility Research},
   annotation = {Soumis},
+  bibtex_show = {true}
 }
 
 @inproceedings{susanly2026UseDeepLearning,
@@ -221,6 +238,7 @@
   year      = 2026,
   month     = may,
   address   = {London, Ontario, Canada},
+  bibtex_show = {true}
 }
 
 @article{serati2026WeaklySupervisedFramework,
@@ -229,6 +247,7 @@
   year       = 2026,
   journal    = {Frontiers in Ecology and Evolution},
   annotation = {Accepted},
+  bibtex_show = {true}
 }
 
 @article{dionne-pierre2026FusionConfusionAssessing,
@@ -237,6 +256,7 @@
   year       = 2026,
   journal    = {Remote Sensing in Ecology and Conservation},
   annotation = {Soumis},
+  bibtex_show = {true}
 }
 
 @article{clabaut2026SystematicEvaluationCOTQ,
@@ -245,4 +265,5 @@
   year       = 2026,
   journal    = {Canadian Journal of Remote Sensing},
   annotation = {Soumis},
+  bibtex_show = {true}
 }
