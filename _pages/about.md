@@ -24,6 +24,12 @@ latest_posts:
   enabled: false
 ---
 
-The **GoTerria** research group works on remote sensing, geomatics, and earth observation. We develop methods and tools to extract information from satellite and aerial imagery for environmental monitoring and land use analysis.
+The **GoTerria** group develops deep learning methods for the analysis of satellite, aerial, and drone imagery. Our research spans three main areas:
 
-We are part of [Dpt. of Applied Geomatics](https://www.usherbrooke.ca/geomatique/). If you are interested in joining the group or collaborating, please [contact us](contact/).
+**Land cover and environmental mapping** — We develop semantic segmentation approaches for multispectral satellite imagery (Sentinel-2), including methods that leverage synthetic training data and self-supervised learning to reduce annotation effort. We also apply deep learning to airborne LiDAR point cloud classification and to the monitoring of riparian buffer strips and land use in Quebec.
+
+**Wildlife survey automation** — We design object detection and counting systems for large-scale aerial wildlife surveys, with applications to African savannas (mammals, livestock) and Arctic environments (caribou, muskox). Our work addresses challenges specific to remote sensing contexts: oblique imagery, sparse species, and limited annotated datasets.
+
+**Physical modelling and signal processing** — We apply deep learning to radiative transfer model emulation for BRDF characterization, to SAR interferometric phase unwrapping, and to river ice estimation from drone imagery.
+
+We are part of the [Département de géomatique appliquée](https://www.usherbrooke.ca/geomatique/) at Université de Sherbrooke. If you are interested in joining the group or collaborating, please [contact us](contact/).
