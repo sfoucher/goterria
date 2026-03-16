@@ -18,7 +18,7 @@ function determineGiscusTheme() {
 
   let giscusAttributes = {
     src: "https://giscus.app/client.js",
-    "data-repo": "sfoucher/sfoucher.github.io",
+    "data-repo": "sfoucher/goterria",
     "data-repo-id": "",
     "data-category": "Comments",
     "data-category-id": "",
