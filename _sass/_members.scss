@@ -2,6 +2,9 @@
  * Member card styles for the People page.
  ******************************************************************************/
 
+// --- member cards ---
+@use "variables" as v;
+
 .members-grid {
   display: flex;
   flex-wrap: wrap;
@@ -10,7 +13,9 @@
 }
 
 .member-card {
-  width: 200px;
+  min-width: 150px;
+  flex: 1 1 200px;
+  max-width: 220px;
   text-align: center;
 
   h3 {

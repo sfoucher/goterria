@@ -10,6 +10,10 @@ nav_order: 2
 ## Current Members
 
 <div class="members-grid">
+{%- comment -%}
+  NOTE: `alumni` must be a boolean (false/true) in member front matter, not a string.
+  If members disappear from the list, check that no file uses alumni: "false" (string).
+{%- endcomment -%}
 {% assign current_members = site.members | where: "alumni", false | sort: "order" %}
 {% for member in current_members %}
 <div class="member-card">
@@ -23,7 +27,7 @@ nav_order: 2
   <p>{{ member.bio }}</p>
   <div class="member-links">
     {% if member.links.email %}
-      <a href="mailto:{{ member.links.email }}" title="Email">✉</a>
+      <a href="mailto:{{ member.links.email }}" title="Email"><i class="fas fa-envelope"></i></a>
     {% endif %}
     {% if member.links.github %}
       <a href="https://github.com/{{ member.links.github }}" title="GitHub">GitHub</a>
@@ -41,6 +45,10 @@ nav_order: 2
 ## Alumni
 
 <div class="members-grid">
+{%- comment -%}
+  NOTE: `alumni` must be a boolean (false/true) in member front matter, not a string.
+  If members disappear from the list, check that no file uses alumni: "true" (string).
+{%- endcomment -%}
 {% assign alumni_members = site.members | where: "alumni", true | sort: "name" %}
 {% for member in alumni_members %}
 <div class="member-card member-alumni">
