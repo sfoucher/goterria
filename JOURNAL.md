@@ -1,3 +1,10 @@
+## 2026-03-16 (Tasks 8-10: news, contact, demo cleanup)
+
+- Task 8: Deleted three al-folio demo announcements (`announcement_1/2/3.md`). Created `_news/2026-03-16-welcome.md` with inline welcome post for GoTerria. Committed as `content: add welcome news post, remove demo posts`.
+- Task 9: Created `_pages/contact.md` with Contact section (email, address) and Join Us section (open positions). Prettier confirmed no formatting changes. Committed as `content: add contact and join us page`.
+- Task 10: Deleted all 10 demo projects (`1_project.md`–`9_project.md`, `example-project.md`) and all 31 al-folio demo blog posts from `_posts/`. Deleted clearly demo/individual-person pages: `about_einstein.md`, `books.md`, `dropdown.md`. Retained `cv.md` and `teaching.md` as borderline — left for user decision. Committed as `chore: remove al-folio demo content (projects, posts)`.
+- Remaining `_pages/`: `404.md`, `about.md`, `blog.md`, `contact.md`, `cv.md`, `news.md`, `people.md`, `profiles.md`, `projects.md`, `publications.md`, `repositories.md`, `teaching.md`.
+
 ## 2026-03-16 (publications quality fixes)
 
 - Fix 1: Corrected corrupted author name in `tlili2020InterferometricPhaseUnwrapping` — `Cavayas, Franois` → `Cavayas, Fran\c{c}ois` (missing cedilla restored).
