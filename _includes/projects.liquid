@@ -29,14 +29,18 @@
             </div>
           {% endif %}
         </div>
-        {% if project.links %}
-          <div class="project-links mt-2">
-            {% for link in project.links %}
-              <a href="{{ link.url }}" class="btn btn-sm z-depth-0" role="button" target="_blank" rel="noopener noreferrer">{{ link.label }}</a>
-            {% endfor %}
-          </div>
-        {% endif %}
       </div>
     </div>
   </a>
+  {% if project.links %}
+    <div class="project-links mt-2">
+      {% for link in project.links %}
+        {% if link.url and link.label %}
+          <a href="{{ link.url | escape }}" class="btn btn-sm z-depth-0" role="button" target="_blank" rel="noopener noreferrer">
+            {{- link.label | escape -}}
+          </a>
+        {% endif %}
+      {% endfor %}
+    </div>
+  {% endif %}
 </div>

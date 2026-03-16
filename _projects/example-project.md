@@ -2,7 +2,6 @@
 layout: page
 title: Example Project
 description: Brief description of this research project.
-img: assets/img/projects/example-thumb.png
 importance: 1
 links:
   - label: Paper
