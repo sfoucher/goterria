@@ -12,8 +12,13 @@ profile:
 
 selected_papers: true
 social: true
-news: true
-latest_posts: false
+announcements:
+  enabled: true
+  scrollable: true
+  limit: 5
+
+latest_posts:
+  enabled: false
 ---
 
 The **GoTerria** research group works on remote sensing, geomatics, and earth observation. We develop methods and tools to extract information from satellite and aerial imagery for environmental monitoring and land use analysis.
