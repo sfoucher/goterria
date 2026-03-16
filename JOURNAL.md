@@ -1,3 +1,13 @@
+## 2026-03-16 (Critical fixes: nav collisions, demo page cleanup)
+
+- Fix 1 (Critical): Deleted `_pages/profiles.md` — it had `permalink: /people/` colliding with `_pages/people.md`.
+- Fix 2 (Critical): Resolved all nav_order collisions. Final navbar: About (1), People (2), Publications (3), Projects (4), News (5), Contact (6). Added `nav: true, nav_order: 1` to `about.md` (was missing both). Set `nav: false` on `blog.md` (was nav_order: 1) and `repositories.md` (was nav_order: 4). Added `nav: true, nav_order: 5` to `news.md` (was missing both). Changed `publications.md` nav_order 2 → 3. Changed `projects.md` nav_order 3 → 4.
+- Fix 3 (Important): Deleted `_pages/cv.md` — individual-person content with broken demo PDF link.
+- Fix 4 (Important): Deleted `_pages/teaching.md` — placeholder calendar content with demo credentials.
+- Fix 5: Added `_projects/.gitkeep` to preserve empty directory.
+- Ran prettier on all modified pages; `publications.md` and `projects.md` were reformatted, others unchanged.
+- Committed as `fix: resolve nav_order collisions, remove individual-person demo pages` (commit `992c9f0`).
+
 ## 2026-03-16 (Tasks 8-10: news, contact, demo cleanup)
 
 - Task 8: Deleted three al-folio demo announcements (`announcement_1/2/3.md`). Created `_news/2026-03-16-welcome.md` with inline welcome post for GoTerria. Committed as `content: add welcome news post, remove demo posts`.
