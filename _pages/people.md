@@ -35,6 +35,9 @@ nav_order: 2
     {% if member.links.scholar %}
       <a href="{{ member.links.scholar }}" title="Google Scholar">Scholar</a>
     {% endif %}
+    {% if member.links.website %}
+      <a href="{{ member.links.website }}" title="Profile" target="_blank" rel="noopener">Profile</a>
+    {% endif %}
   </div>
 </div>
 {% endfor %}

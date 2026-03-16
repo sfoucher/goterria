@@ -8,6 +8,7 @@ alumni: false
 order: 1
 links:
   email: samuel.foucher@university.edu
+  website: https://www.usherbrooke.ca/recherche/fr/specialistes/details/samuel.foucher
   # github: samuelFoucher
   # scholar: https://scholar.google.com/citations?user=XXX
 ---

@@ -8,6 +8,7 @@ alumni: false
 order: 2
 links:
   email: mickael.germain@university.edu
+  website: https://www.usherbrooke.ca/recherche/fr/specialistes/details/mickael.germain
   # github: mickaelGermain
   # scholar: https://scholar.google.com/citations?user=XXX
 ---

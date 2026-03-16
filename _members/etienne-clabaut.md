@@ -8,6 +8,7 @@ alumni: false
 order: 5
 links:
   email: etienne.clabaut@university.edu
+  website: https://www.usherbrooke.ca/recherche/fr/specialistes/details/etienne.clabaut
   # github: etienneClabaut
   # scholar: https://scholar.google.com/citations?user=XXX
 ---
